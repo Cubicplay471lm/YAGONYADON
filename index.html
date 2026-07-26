@@ -1,1 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAGONYADON</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a0f;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: radial-gradient(ellipse at center, #1a1a2e 0%, #0a0a0f 100%);
+        }
+
+        .container {
+            background: rgba(20, 20, 35, 0.95);
+            padding: 60px 50px;
+            border-radius: 20px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+        }
+
+        .logo {
+            font-size: 72px;
+            font-weight: 900;
+            color: #fff;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 40px rgba(247, 151, 30, 0.3);
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 14px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .thanks {
+            color: #fff;
+            font-size: 28px;
+            font-weight: 300;
+            margin-bottom: 8px;
+        }
+
+        .thanks span {
+            color: #ffd700;
+            font-weight: 600;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ffd700, transparent);
+            margin: 20px auto;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+            color: #0a0a0f;
+            padding: 18px 50px;
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 25px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 30px rgba(247, 151, 30, 0.3);
+            letter-spacing: 1px;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 50px rgba(247, 151, 30, 0.5);
+        }
+
+        .download-btn:active {
+            transform: scale(0.97);
+        }
+
+        .info {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 13px;
+            margin-top: 15px;
+        }
+
+        .info span {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .requirements {
+            color: rgba(255, 255, 255, 0.25);
+            font-size: 12px;
+            margin-top: 20px;
+            letter-spacing: 1px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .footer a {
+            color: rgba(255, 255, 255, 0.2);
+            text-decoration: none;
+            font-size: 12px;
+            transition: color 0.3s;
+        }
+
+        .footer a:hover {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.08);
+            color: #ffd700;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 11px;
+            letter-spacing: 2px;
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="logo">YAGONYADON</div>
+        <div class="subtitle">NeverFall Project</div>
+
+        <div class="thanks">
+            Спасибо за <span>покупку</span>!
+        </div>
+
+        <div class="divider"></div>
+
+        <a href="https://github.com/Cubicplay471lm/YAGONYADON/raw/refs/heads/main/YAGONYADON.exe" class="download-btn">
+            ⬇ Скачать
+        </a>
+
+        <div class="info">
+            <span>Windows 7 — 10</span>
+        </div>
+
+        <div class="badge">v2.0</div>
+
+        <div class="footer">
+            <a href="https://github.com/Cubicplay471lm/YAGONYADON" target="_blank">GitHub</a>
+            &nbsp;·&nbsp;
+            <a href="https://cubicplay471lm.github.io/YAGONYADON/" target="_blank">Сайт</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
